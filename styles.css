@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --green:#307d38;
+    --pink:#a84fc7;
+    --white:#d9d9d9;
+    --yellow:#fbf112;
+    --gray-secondary:#bdbdbd;
+    --blue:#54b4d2;
+
+}
+
+a{
+    text-decoration: none;
+    color:var(--white);
+    transition: 0.5s;
+}
+
+a:hover{
+    color:var(--blue);
+}
+
+body{
+    background-color: var(--gray-secondary);
+    color:black;
+}
+
+legend{
+    color:var(--white);
+}
+
+
+.navbar{
+    background-color: var(--bg);
+}
+
+.btn-primary{
+    background-color: var(--white);
+    border:0;
+    opacity: 0.5;
+    transition:0.5s;
+    color:var(--green);
+
+}
+
+.btn-primary:hover{
+    opacity: 1;
+    background-color: var(--white);
+    color:var(--green);
+}
+
+.btn-secondary{
+    background-color: var(--white);
+    border:0;
+    opacity: 0.8;
+    transition:0.5s;
+
+    color:black;
+}
+
+.btn-secondary:hover{
+    opacity: 1;
+    background-color: var(--white);
+    color:black;
+}
+
+#progress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 15px;
+  }
+  
+  #bar {
+    width: 10%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    
+  }
+
+footer{
+    width:60%;
+    
+}
+
+
+footer .link-footer a{
+    color:black;
+}
+footer .link-footer a:hover{
+    color:var(--green);
+    transition:0.5s;
+    
+}
+
+.form-control{
+    background-color: var(--gray);
+    color:var(--white);
+    border:0;
+}
+
+.form-control:focus{
+    background-color: var(--gray);
+    color:var(--white);
+    border:0;
+}
+
+.form-label{
+    color:var(--white);
+}
